@@ -1,0 +1,85 @@
+.auth-page {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.auth-container {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.auth-container h2 {
+    text-align: center;
+}
+
+.auth-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.auth-container form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-container form span {
+    color: red;
+    font-size: 12px;
+}
+
+.auth-container form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.auth-container form button:disabled {
+    background-color: #c0c0c0;
+    cursor: not-allowed;
+}
+
+.toggle-auth {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.toggle-auth button {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+}
+
+/* src/components/Profile.css */
+.profile-page {
+    padding: 20px;
+}
+
+.profile-page h2 {
+    text-align: center;
+}
+
+.profile-page img {
+    display: block;
+    margin: 0 auto;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.carousel img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
